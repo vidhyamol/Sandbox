@@ -1,6 +1,6 @@
 from bottle import route,run,template,get,post,put,delete,request
 pat_dic={}
-
+#code for post
 @post('/patient')
 def add_data():
 	id=request.POST['id']
